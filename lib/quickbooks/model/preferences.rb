@@ -18,7 +18,7 @@ module Quickbooks
       end
 
       PREFERENCE_SECTIONS = {
-        :accounting_info      => %w(TrackDepartments DepartmentTerminology ClassTrackingPerTxnLine? ClassTrackingPerTxn? CustomerTerminology, BookCloseDate),
+        :accounting_info      => %w(TrackDepartments DepartmentTerminology ClassTrackingPerTxnLine? ClassTrackingPerTxn? CustomerTerminology BookCloseDate),
         :product_and_services => %w(ForSales? ForPurchase? QuantityWithPriceAndRate? QuantityOnHand?),
         :sales_forms          => %w(CustomTxnNumbers? AllowDeposit? AllowDiscount? DefaultDiscountAccount? AllowEstimates? EstimateMessage?
                                                 ETransactionEnabledStatus? ETransactionAttachPDF? ETransactionPaymentEnabled? IPNSupportEnabled?
